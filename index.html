@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Despesas</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Fira+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4f6ce312cb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="background-gradient"></div>
+    <main class="container">
+      <section class="calculadora-box">
+        <img
+          src="assets/img/calculadora-roxa.png"
+          alt="Calculadora"
+          class="img-calculadora"
+        />
+        <h1 class="titulo">Calculadora de Despesas</h1>
+        <form id="expense-form">
+          <div class="input-group renda-liquida">
+            <label for="liquid-value">Renda Líquida</label>
+            <input
+              type="number"
+              id="liquid-value"
+              placeholder="Renda Líquida"
+              min="0"
+              step="0.01"
+              required
+            />
+          </div>
+          <h2 class="subtitulo">Custo Essencial</h2>
+          <div class="input-group essenciais">
+            <input
+              type="number"
+              id="moradia"
+              placeholder="Moradia"
+              min="0"
+              step="0.01"
+              required
+            />
+            <input
+              type="number"
+              id="transporte"
+              placeholder="Transporte"
+              min="0"
+              step="0.01"
+              required
+            />
+            <input
+              type="number"
+              id="saude"
+              placeholder="Saúde"
+              min="0"
+              step="0.01"
+              required
+            />
+            <input
+              type="number"
+              id="alimentacao"
+              placeholder="Alimentação"
+              min="0"
+              step="0.01"
+              required
+            />
+            <input
+              type="number"
+              id="educacao"
+              placeholder="Educação"
+              min="0"
+              step="0.01"
+              required
+            />
+            <input
+              type="number"
+              id="investimento"
+              placeholder="Investimento"
+              min="0"
+              step="0.01"
+              required
+            />
+          </div>
+          <button type="submit" class="btn-add">Adicionar</button>
+        </form>
+        <ul id="lista-despesas"></ul>
+        <div class="total-despesas-box">
+          <span>Total das despesas:</span>
+          <span id="total-despesas-value" class="total-despesas-value"
+            >0.00</span
+          >
+        </div>
+        <div class="saldo-box">
+          <span><i class="fa-solid fa-money-bills"></i> Saldo:</span>
+          <span id="saldo-value" class="saldo-value">0.00</span>
+        </div>
+      </section>
+    </main>
+    <script src="assets/index.js"></script>
+  </body>
+</html>
