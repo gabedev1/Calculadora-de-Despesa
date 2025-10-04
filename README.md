@@ -8,7 +8,7 @@ Este projeto é uma calculadora simples desenvolvida para facilitar o cálculo d
 
 ## 🛠️ Funcionalidades
 
-- Soma, subtração, multiplicação e divisão
+- Calcular as despesas baseada na sua renda líquida
 - Interface amigável
 - Fácil de usar
 
