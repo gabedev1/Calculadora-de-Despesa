@@ -19,6 +19,25 @@
   </head>
   <body>
     <div class="background-gradient"></div>
+
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a class="logo" href="index.html">
+          <img
+            src="assets/img/icone.png"
+            alt="Logo"
+            class="nav-logo"
+          />
+        </a>
+
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="info.html" class="nav-link">Sobre</a>
+          <a href="info.html#grupo" class="nav-link">Grupo</a>
+        </div>
+      </div>
+    </nav>
+
     <main class="container">
       <section class="calculadora-box">
         <img
@@ -40,7 +59,7 @@
             />
           </div>
           <h2 class="subtitulo">Custo Essencial</h2>
-          <div id = "div-inputs"class="input-group essenciais">
+          <div id="div-inputs" class="input-group essenciais">
             <input
               type="number"
               id="moradia"
@@ -90,7 +109,7 @@
               required
             />
           </div>
-          <button type="button" id="adicionar" class="btn-add">Adicionar</button>
+          <button type="button" id="adicionar" class="btn-add"><i class="fa-solid fa-plus"></i> Adicionar</button>
           <button type="submit" class="btn-add">Somar</button>
         </form>
         <ul id="lista-despesas"></ul>
@@ -106,6 +125,7 @@
         </div>
       </section>
     </main>
+
     <script src="assets/index.js"></script>
   </body>
 </html>
