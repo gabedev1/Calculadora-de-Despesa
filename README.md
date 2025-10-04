@@ -1,14 +1,18 @@
-﻿# Calculadora de Despesa
+﻿# 🧮 Calculadora de Despesa
 
 Este projeto é uma calculadora simples desenvolvida para facilitar o cálculo de despesa. O objetivo é oferecer uma interface intuitiva para realizar operações matemáticas básicas.
 
-## Funcionalidades
+## 💻 Acesse o Pages do projeto
+
+ - Visite nosso site via link : [Acesse aqui o pages](https://gabedev1.github.io/Calculadora-de-Despesa/)
+
+## 🛠️ Funcionalidades
 
 - Soma, subtração, multiplicação e divisão
 - Interface amigável
 - Fácil de usar
 
-## Como usar
+## 🧩 Como usar
 
 1. Clone o repositório:
     ```bash
@@ -17,7 +21,7 @@ Este projeto é uma calculadora simples desenvolvida para facilitar o cálculo d
 2. Abra o projeto em seu editor de código favorito.
 3. Execute conforme as instruções do projeto.
 
-## Licença
+## ⚖️ Licença
 
 
 Este projeto está sob a licença MIT.
